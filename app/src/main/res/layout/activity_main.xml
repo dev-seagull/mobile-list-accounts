@@ -21,7 +21,7 @@
         android:id="@+id/textView_Header"
         android:layout_width="272dp"
         android:layout_height="79dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="248dp"
         android:text="@string/welcome_to_the_lighthouse_account_manager"
         android:textSize="13sp"
         android:textStyle="bold"
@@ -34,13 +34,23 @@
         android:id="@+id/textView_choose_services"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="236dp"
+        android:layout_marginTop="356dp"
         android:text="Please choose your account"
         android:textSize="13sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/Seagull_logo_2" />
 
 </android.support.constraint.ConstraintLayout>

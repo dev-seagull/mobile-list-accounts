@@ -18,5 +18,7 @@ public class MainActivity extends AppCompatActivity {
         String update_result = String.join(",", result);
         TextView textView = (TextView) findViewById(R.id.textViewOfAccounts);
         textView.setText(update_result);
+
+        
     }
 }
