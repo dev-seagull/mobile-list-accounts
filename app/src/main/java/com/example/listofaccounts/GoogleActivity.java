@@ -12,5 +12,6 @@ public class GoogleActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_google);
+        getSupportActionBar().setTitle("Google accounts");
     }
 }
