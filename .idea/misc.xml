@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Seagull Cybernetics/Lighthouse/Mobile list account/Android app/mobile-list-accounts/app/src/main/res/layout/activity_google.xml" value="0.18541666666666667" />
         <entry key="..\:/Seagull Cybernetics/Lighthouse/Mobile list account/Android app/mobile-list-accounts/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Seagull Cybernetics/Lighthouse/Mobile list account/Android app/mobile-list-accounts/app/src/main/res/layout/activity_outlook.xml" value="0.18541666666666667" />
+        <entry key="..\:/Seagull Cybernetics/Lighthouse/Mobile list account/Android app/mobile-list-accounts/app/src/main/res/layout/activity_spotify.xml" value="0.18541666666666667" />
       </map>
     </option>
   </component>

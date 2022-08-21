@@ -7,4 +7,7 @@
     <string name="google">GOOGLE</string>
     <string name="outlook">OUTLOOK</string>
     <string name="spotify">SPOTIFY</string>
+    <string name="this_is_our_google_accounts_list_page">This is our google accounts list page</string>
+    <string name="this_is_our_outlook_accounts_list_page">This_is_our_outlook_accounts_list_page</string>
+    <string name="this_is_our_spotify_accounts_list_page">This is our spotify accounts list page</string>
 </resources>
