@@ -10,5 +10,6 @@ public class OutlookActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_outlook);
         getSupportActionBar().setTitle("Outlook accounts");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

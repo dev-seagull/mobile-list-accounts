@@ -10,5 +10,6 @@ public class SpotifyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_spotify);
         getSupportActionBar().setTitle("Spotify accounts");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }

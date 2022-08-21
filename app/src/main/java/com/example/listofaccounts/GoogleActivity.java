@@ -13,5 +13,6 @@ public class GoogleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_google);
         getSupportActionBar().setTitle("Google accounts");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 }
