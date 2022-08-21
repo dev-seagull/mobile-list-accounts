@@ -2,6 +2,7 @@ package com.example.listofaccounts;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -19,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
         TextView textView = (TextView) findViewById(R.id.textViewOfAccounts);
         textView.setText(update_result);
 
-        
+        ImageView LogoImageView = (ImageView) findViewById(R.id.imageView_logo);
+        LogoImageView.setImageResource(R.drawable.seagull_logo_2);
+
+
     }
 }
