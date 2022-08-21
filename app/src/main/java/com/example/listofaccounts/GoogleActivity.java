@@ -14,5 +14,13 @@ public class GoogleActivity extends AppCompatActivity {
         setContentView(R.layout.activity_google);
         getSupportActionBar().setTitle("Google accounts");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        GetAllAccounts userAccounts = new GetAllAccounts();
+        ArrayList<String> result = userAccounts.getAccountsOfDevice(this);
+        String update_result = String.join(",", result);
+        //setContentView(R.layout.activity_google);
+
+        TextView textView = (TextView) findViewById(R.id.textView_google_accounts);
+        textView.setText(update_result);
     }
 }

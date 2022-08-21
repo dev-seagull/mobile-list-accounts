@@ -43,14 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 openSpotifyActivity();
             }
         });
-
-        GetAllAccounts userAccounts = new GetAllAccounts();
-        ArrayList<String> result = userAccounts.getAccountsOfDevice(this);
-        String update_result = String.join(",", result);
-        //setContentView(R.layout.activity_google);
-
-        TextView textView = (TextView) findViewById(R.id.textViewOfAccounts);
-        textView.setText(update_result);
+        
         ImageView LogoImageView = (ImageView) findViewById(R.id.imageView_logo);
         LogoImageView.setImageResource(R.drawable.seagull_logo_2);
 
