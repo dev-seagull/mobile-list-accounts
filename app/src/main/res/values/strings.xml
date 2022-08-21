@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ListOfAccounts</string>
+    <string name="welcome_to_the_lighthouse_account_manager">Welcome to the Lighthouse Account Manager</string>
+    <string name="textview">TextView</string>
 </resources>

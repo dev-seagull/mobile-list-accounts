@@ -7,22 +7,39 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textViewOfAccounts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="660dp"
+        android:text="@string/textview"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textViewOfAccounts"
+        android:id="@+id/textView_Header"
+        android:layout_width="272dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/welcome_to_the_lighthouse_account_manager"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_choose_services"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="187dp"
-        android:text="TextView"
+        android:layout_marginTop="236dp"
+        android:text="Please choose your account"
+        android:textSize="13sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
