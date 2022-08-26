@@ -1,5 +1,6 @@
 package com.example.listofaccounts;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -18,9 +19,12 @@ public class GoogleActivity extends AppCompatActivity {
         GetAllAccounts userAccounts = new GetAllAccounts();
         ArrayList<String> result = userAccounts.getAccountsOfDevice(this);
         String update_result = String.join(",", result);
-        //setContentView(R.layout.activity_google);
 
         TextView textView = (TextView) findViewById(R.id.textView_google_accounts);
         textView.setText(update_result);
+        textView.setBackgroundColor(Color.parseColor("#12C4DC"));
+
+        TextView textView_title = (TextView) findViewById(R.id.textView_google);
+        textView_title.setBackgroundColor(Color.parseColor("#37DC12"));
     }
 }
