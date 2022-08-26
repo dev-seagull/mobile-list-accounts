@@ -6,9 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.TextView;
 
-import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
     private Button google_button;
@@ -43,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 openSpotifyActivity();
             }
         });
-        
+
         ImageView LogoImageView = (ImageView) findViewById(R.id.imageView_logo);
         LogoImageView.setImageResource(R.drawable.seagull_logo_2);
 
@@ -64,12 +62,5 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, SpotifyActivity.class);
         startActivity(intent);
     }
-
-
-
-
-
-
-
 
 }
