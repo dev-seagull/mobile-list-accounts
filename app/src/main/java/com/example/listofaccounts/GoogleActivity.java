@@ -17,7 +17,7 @@ public class GoogleActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         GetAllAccounts userAccounts = new GetAllAccounts();
-        ArrayList<String> result = userAccounts.getAccountsOfDevice(this);
+        ArrayList<String> result = userAccounts.getAccountsOfDevice("com.google", this);
         String update_result = String.join(",", result);
 
         TextView textView = (TextView) findViewById(R.id.textView_google_accounts);
