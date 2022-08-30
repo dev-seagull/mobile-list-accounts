@@ -16,12 +16,12 @@ public class GoogleActivity extends AppCompatActivity {
         getSupportActionBar().setTitle("Google accounts");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        GetAllAccounts userAccounts = new GetAllAccounts();
-        ArrayList<String> result = userAccounts.getAccountsOfDevice("com.google", this);
-        String update_result = String.join(",", result);
+        GetAllAccounts googleAccounts = new GetAllAccounts();
+        ArrayList<String> listOfGoogleAccounts = googleAccounts.getAccountsOfDevice("com.google", this);
+        String result = String.join(",", listOfGoogleAccounts);
 
         TextView textView = (TextView) findViewById(R.id.textView_google_accounts);
-        textView.setText(update_result);
+        textView.setText(result);
         textView.setBackgroundColor(Color.parseColor("#12C4DC"));
 
         TextView textView_title = (TextView) findViewById(R.id.textView_google);
