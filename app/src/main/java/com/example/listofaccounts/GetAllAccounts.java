@@ -15,13 +15,13 @@ public class GetAllAccounts{
 
 
         AccountManager accountManager = AccountManager.get(activity.getApplicationContext());
-        Account[] google_accounts = accountManager.getAccountsByType(string);
-        ArrayList<String> listOfGoogleAccounts = new ArrayList<>();
+        Account[] accounts = accountManager.getAccountsByType(string);
+        ArrayList<String> listOfAccounts = new ArrayList<>();
 
-        for(Account googleAccount: google_accounts){
-            listOfGoogleAccounts.add(googleAccount.toString());
+        for(Account account: accounts){
+            listOfAccounts.add(account.toString());
         }
 
-        return listOfGoogleAccounts;
+        return listOfAccounts;
     }
 }
