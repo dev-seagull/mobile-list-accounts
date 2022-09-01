@@ -8,7 +8,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class TelegramActivity extends AppCompatActivity {
-    private String type = "org.telegram.messanger";
+    private String type = "org.telegram.messenger";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
