@@ -61,12 +61,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_outlook"
+        android:id="@+id/button_telegram"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="470dp"
         android:backgroundTint="#3E93D2"
-        android:text="@string/outlook"
+        android:text="@string/TELEGRAM"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -74,12 +74,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_spotify"
+        android:id="@+id/button_whatsapp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="534dp"
         android:backgroundTint="#41F04C"
-        android:text="@string/spotify"
+        android:text="@string/WHATSAPP"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

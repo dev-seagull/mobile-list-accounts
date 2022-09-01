@@ -5,9 +5,9 @@
     <string name="please_choose_your_account">Please choose your account</string>
     <string name="todo">TODO</string>
     <string name="google">GOOGLE</string>
-    <string name="outlook">OUTLOOK</string>
-    <string name="spotify">SPOTIFY</string>
     <string name="this_is_our_google_accounts_list_page">This is our google accounts list page</string>
     <string name="this_is_our_outlook_accounts_list_page">This_is_our_outlook_accounts_list_page</string>
     <string name="this_is_our_spotify_accounts_list_page">This is our spotify accounts list page</string>
+    <string name="TELEGRAM">TELEGRAM</string>
+    <string name="WHATSAPP">WHATSAPP</string>>
 </resources>

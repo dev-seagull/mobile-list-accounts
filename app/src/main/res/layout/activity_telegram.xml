@@ -5,14 +5,14 @@
     android:id="@+id/relativeLayout4"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OutlookActivity">
+    tools:context=".TelegramActivity">
 
     <TextView
-        android:id="@+id/textView_outlook"
+        android:id="@+id/textView_telegram"
         android:layout_width="272dp"
         android:layout_height="79dp"
         android:layout_marginTop="248dp"
-        android:text="@string/this_is_our_outlook_accounts_list_page"
+        android:text="This is our Telegram accounts list page"
         android:textSize="15sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

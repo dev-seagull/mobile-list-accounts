@@ -10,8 +10,8 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
     private Button google_button;
-    private Button outlook_button;
-    private Button spotify_button;
+    private Button telegram_button;
+    private Button whatsapp_button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,20 +26,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        outlook_button = (Button) findViewById(R.id.button_outlook);
-        outlook_button.setOnClickListener(new View.OnClickListener() {
+        telegram_button = (Button) findViewById(R.id.button_telegram);
+        telegram_button.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                openOutlookActivity();
-            }
+            public void onClick(View view) { openTelegramActivity(); }
         });
 
-        spotify_button = (Button) findViewById(R.id.button_spotify);
-        spotify_button.setOnClickListener(new View.OnClickListener() {
+        whatsapp_button = (Button) findViewById(R.id.button_whatsapp);
+        whatsapp_button.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                openSpotifyActivity();
-            }
+            public void onClick(View view) { openWhatsappActivity();}
         });
 
         ImageView LogoImageView = (ImageView) findViewById(R.id.imageView_logo);
@@ -53,13 +49,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void openOutlookActivity() {
-        Intent intent = new Intent(this, OutlookActivity.class);
+    public void openTelegramActivity() {
+        Intent intent = new Intent(this, TelegramActivity.class);
         startActivity(intent);
     }
 
-    public void openSpotifyActivity() {
-        Intent intent = new Intent(this, SpotifyActivity.class);
+    public void openWhatsappActivity() {
+        Intent intent = new Intent(this, WhatsappActivity.class);
         startActivity(intent);
     }
 

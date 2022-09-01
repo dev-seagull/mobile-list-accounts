@@ -8,6 +8,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class GoogleActivity extends AppCompatActivity {
+    private String type = "com.google";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +18,7 @@ public class GoogleActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         GetAllAccounts googleAccounts = new GetAllAccounts();
-        ArrayList<String> listOfGoogleAccounts = googleAccounts.getAccountsOfDevice("com.google", this);
+        ArrayList<String> listOfGoogleAccounts = googleAccounts.getAccountsOfDevice( type, this);
         String result = String.join(",", listOfGoogleAccounts);
 
         TextView textView = (TextView) findViewById(R.id.textView_google_accounts);
